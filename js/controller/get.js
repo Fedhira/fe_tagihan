@@ -9,7 +9,7 @@ function isiRow(value) {
   let content = isiTabel
     .replace("#NAMA_BANK#", value.nama_bank)
     .replace("#NAMA_NASABAH#", value.daftar.total_tagihan.biodata.nama_nasabah)
-    .replace("#NAMA_NASABAH#", value.daftar.total_tagihan.total_tagihan)
+    .replace("#TAGIHAN#", value.daftar.total_tagihan.total_tagihan)
     .replace("#NAMA_PENAGIH#", value.daftar.nama_penagih)
     // .replace("#NOHP#", value.absensi.biodata ? value.absensi.biodata.phonenumber : "#NOHP#")
     // .replace("#MATAKULIAH#", value.kategori.nama_mk)
